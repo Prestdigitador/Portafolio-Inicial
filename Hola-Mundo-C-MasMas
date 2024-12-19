@@ -2,6 +2,7 @@
 using namespace std;
 int main(){
 cout << "¡Hola, Mundo!";
+cout << "¡Que tengas un excelente día!";
 return 0;
 }
 
