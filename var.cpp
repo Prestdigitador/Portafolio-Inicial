@@ -3,10 +3,10 @@
 using namespace std;
 
 int main() {
-int numero;
 string SalNombre = "Hola, mi nombre es Alonso. ";
-numero = 8; // imprime 8
-numero = 30; // ahora imprime 30
-cout << SalNombre << "tengo " << numero << " años.";
+Edad = 15; // Mitad actual
+Duplo = 15; // Duplica, para fines didácticos.
+  int edad = Edad + Duplo
+cout << SalNombre << "tengo " << edad << " años.";
 return 0;
 }
