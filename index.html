@@ -1,24 +1,73 @@
-<style>
-    body { font-family: Tahoma; background: #f0f0f0; padding: 20px; }
-    h1 { color: #00352F; }
-    p { color: #CEDC00; }
-  </style>
-  
-  <h1>Hola, soy Alonso</h1>
-<p>Estoy construyendo mi portafolio para conseguir trabajo en TI.</p>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio - Alonso</title>
+    <style>
+        body {
+            font-family: Tahoma, sans-serif;
+            background: #f0f0f0;
+            color: #333;
+            padding: 20px;
+            line-height: 1.6;
+        }
 
-<button onclick="mostrarInfo()">Mostrar más información</button>
-<div id="infoAdicional" style="display:none; margin-top:20px;">
-  <p>Estoy aprendiendo desarrollo web para cambiar mi vida. ¡Gracias por visitar!</p>
-</div>
+        h1 {
+            color: #00352F;
+        }
 
-<script>
-  function mostrarInfo() {
-    document.getElementById("infoAdicional").style.display = "block";
-  }
-</script>
-<h2>Mis Proyectos</h2>
-<div style="margin-top:10px;">
-  <h3>Proyecto 1 (próximamente)</h3>
-  <p>Descripción breve de lo que construiré pronto.</p>
-</div>
+        p {
+            color: #333;
+        }
+
+        button {
+            background-color: #00352F;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        button:hover {
+            background-color: #004D40;
+        }
+
+        #infoAdicional {
+            display: none;
+            margin-top: 20px;
+            background: #fff;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            margin-top: 40px;
+            color: #00352F;
+        }
+
+        .proyecto {
+            margin-top: 20px;
+        }
+
+        .proyecto h3 {
+            color: #00352F;
+        }
+
+        .proyecto p {
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Hola, soy Alonso</h1>
+        <p>Estoy construyendo mi portafolio para conseguir trabajo en TI.</p>
+    </header>
+
+    <button onclick="mostrarInfo()">Mostrar más información</button>
+    <div id="infoAdicional">
+        <p
