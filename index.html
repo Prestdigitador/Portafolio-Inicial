@@ -5,4 +5,15 @@
   </style>
   
   <h1>Hola, soy Alonso</h1>
-<p>Estoy construyendo mi portafolio para conseguir trabajo en TI.</p> 
+<p>Estoy construyendo mi portafolio para conseguir trabajo en TI.</p>
+
+<button onclick="mostrarInfo()">Mostrar más información</button>
+<div id="infoAdicional" style="display:none; margin-top:20px;">
+  <p>Estoy aprendiendo desarrollo web para cambiar mi vida. ¡Gracias por visitar!</p>
+</div>
+
+<script>
+  function mostrarInfo() {
+    document.getElementById("infoAdicional").style.display = "block";
+  }
+</script>
